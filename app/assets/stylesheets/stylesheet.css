@@ -6,12 +6,12 @@
 
 a:link {
     text-decoration: none;
-    color: #7DAD95;
+    color: #fff;
 }
 
 a:visited {
     text-decoration: none;
-    color: #7DAD95;
+    color: #fff;
 }
 
 h1 {
@@ -20,9 +20,9 @@ h1 {
 body {
   font-family: 'Open Sans', sans-serif;
   background: white;
-  color: black;
+  color: #fff
   padding: 5px;
-  background: #E6F2F7;
+  background: #59747f;
 }
 
 .header {
@@ -44,19 +44,12 @@ body {
   display: flex;
   margin: 20px;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.valleys-card {
-  margin: 10px;
-  height: 350px;
-  width: calc(33% - 90px);
-  background: #ffffff;
+  justify-content: space-around;
 }
 
 .header-title {
   margin: 20px;
-  color: #51AD7F;
+  color: #74bcc9;
   text-align: center;
 }
 
@@ -65,63 +58,57 @@ body {
   padding: 5px;
   margin: 20px;
   text-align: right;
-  color: #3E8A64;
+  color: #fff;
 }
 
 .nav-item {
   font-weight: bold;
   text-align: right;
-  color: #3E8A64;
+  color: #fff;
 }
 
 .banner {
   margin: 0px;
   padding: 10px;
   text-align: center;
-  background: lightblue;
-  color: #1D6ECC;
+  background: #2c4156;
 }
 
-.banner-logo {
-  max-width: 50px;
-  padding: 10px;
-  text-align: center;
-  background: #ffffff;
-  color: #1D6ECC;
-}
 
 a:hover {
-    text-decoration: underline;
 }
 
 .banner-title {
   padding: 10px;
   margin: 0px;
   text-align: center;
-  color: #12824A;
+  color: #74bcc9;
 }
 
 .banner-subtitle {
-  color: #8AB59F;
+  color: #cee6ea;
   margin: 50px.
   padding: 100px.
 }
 
 .valleys-card {
-  width: 30%;
+  width: calc(33% - 90px);
   align-self: stretch;
-  background: lightblue;
+  background: #2c4156;
+  height: 250px;
   padding: 10px;
   margin: 10px;
-  border: 1px solid black
 }
+
 .valleys-card-image {
   opacity:1;
   justify-content: center;
   align-self: stretch;
-  width: 70%;
-  height: 150px;
-  padding-left: 15%;
+  width: 80%;
+  height: 80%;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .hub_button :hover{
@@ -130,41 +117,20 @@ opacity:1;
 
 .valleys-card-title {
   text-align:left;
-color: #68947E;
-font-size: 15px;
-padding: 10px;
-margin: 0;
-
-}
-
-.valleys-card-button {
-  text-align: left;
-  margin: 0px;
-color: #7DAD95;
-font-size: 15px;
-padding: 10px;
-}
-
-.valleys-card-button-style {
-  color: white;
-  border-radius: 90px;
-  background-color: #D81159;
-  width: 100%;
-  height: 30px;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  border: 1px solid black;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0;
 }
 
 .links {
   text-align: center;
   padding: 10px;
-  color: #7DAD95;
+  color: #fff;
 }
 .footer {
 font-family: 'Open Sans', sans-serif;
 text-align: center;
-background: #E6F2F7;
-color: #68947E;
+background: #59747f;
+color: #cee6ea;
 }

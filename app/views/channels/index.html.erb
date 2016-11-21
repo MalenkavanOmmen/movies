@@ -1,3 +1,9 @@
+
+<header class="header" href="./movies">
+  <!-- Here comes the header-->
+  <h1 class="header-title">Channels</h1>
+</header>
+
 <p id="notice"><%= notice %></p>
 <% @channels.each do |channel| %>
 
@@ -18,8 +24,5 @@
   <% else %>
     <p>There are no channels in this channel.</p>
   <% end %>
-
-  <%= link_to 'Edit', edit_channel_path(channel) %> |
-  <%= link_to 'Back', channels_path %>
 
 <% end %>
